@@ -1,0 +1,57 @@
+# Laravel core
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/bootstrap/cache/*.php
+
+# Environment files (IMPORTANTE - contiene password/chiavi segrete)
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+
+# Storage (file generati/caricati dagli utenti, log)
+/storage/app/*
+!/storage/app/public
+!/storage/app/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# IDE / Editor
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+.fleet
+.nova
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build tools (Vite/Mix)
+/public/build
+/public/mix-manifest.json
+npm-debug.log
+yarn-error.log
+
+# Testing
+.phpunit.cache
+/coverage
+
+# Homestead (se usato)
+Homestead.json
+Homestead.yaml
+
+# IDE Helper (se usi barryvdh/laravel-ide-helper)
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
